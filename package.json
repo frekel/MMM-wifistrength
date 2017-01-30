@@ -1,7 +1,7 @@
 {
-  "name": "wifistrength",
+  "name": "MMM-wifistrength",
   "version": "0.0.1",
-  "description": "MagicMirror² module to show wifi signal strength",
+  "description": "MagicMirror² module to show wifi signal strength (port of qistoph)",
   "main": "test.js",
   "scripts": {
     "test": "grunt",
@@ -16,11 +16,11 @@
     "wireless-tools": "^0.18.1"
   },
   "bugs": {
-    "url": "https://github.com/qistoph/MMM-wifistrength/issues"
+    "url": "https://github.com/frekel/MMM-wifistrength/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/qistoph/MMM-wifistrength"
+    "url": "https://github.com/frekel/MMM-wifistrength"
   },
   "devDependencies": {
     "grunt": "^1.0.1",

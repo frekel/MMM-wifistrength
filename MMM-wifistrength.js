@@ -1,11 +1,11 @@
 /* global Module, Log */
 
 /* Magic Mirror
- * Module: wifistrength
+ * Module: MMM-wifistrength
  *
  */
 
-Module.register("wifistrength",{
+Module.register("MMM-wifistrength",{
 	defaults: {
 		device: "wlan0",
 		reloadInterval: 120000,
@@ -17,7 +17,7 @@ Module.register("wifistrength",{
 	},
 
 	getStyles: function() {
-		return ["wifistrength.css"];
+		return ["MMM-wifistrength.css"];
 	},
 
 	init: function() {
